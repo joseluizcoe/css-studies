@@ -3,11 +3,17 @@
   padding : 0;
 }
 
-body {
+.vertical-scroll {
   scroll-snap-type: y mandatory;
   overflow-y : scroll;
 }
 
+.horizontal-scroll {
+  scroll-snap-type: x mandatory;
+  overflow-y : scroll;
+  display: flex;
+  width: 500vw;
+}
 
 .scroll-snap {
   display: flex;
