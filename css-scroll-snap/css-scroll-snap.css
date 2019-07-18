@@ -3,6 +3,10 @@
   padding : 0;
 }
 
+a {
+  cursor: pointer;
+}
+
 .vertical-scroll {
   scroll-snap-type: y mandatory;
   overflow-y : scroll;
